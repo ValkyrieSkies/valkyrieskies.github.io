@@ -1,0 +1,1 @@
+This is simply my personal website made to host random musings, ideas, and reviews of mine. On the off event I have a banger idea, I've slapped the ol' Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License onto it for what good it's worth.
