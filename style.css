@@ -1,0 +1,83 @@
+a
+{
+	text-decoration: none;
+}
+
+.header
+{
+	display: flex;
+	border-style: solid;
+}
+
+.headleft
+{
+	padding: 10px;
+	flex: 25%;
+}
+
+img.headleft
+{
+	padding: 0px;
+	border-style: inset;
+}
+
+.headright
+{
+	padding: 10px;
+	flex: 75%;
+}
+
+a.headright
+{
+	border-style: solid;
+	border-width: 1px;
+	font-weight: bold;
+	padding: 5px 5px 5px 5px;
+	border-color: black;
+}
+
+.body
+{
+	display: flex;
+}
+
+.leftbar
+{
+	padding: 0px 10px 0px 10px;
+	flex: 10%
+}
+
+div.leftbar
+{
+	border-style: solid;
+}
+
+p.leftbar
+{
+	padding: 0px 5px 0px 5px;
+	width: 95%;
+}
+
+.main
+{
+	padding: 0px 5px 0px 5px;
+	flex: 80%;
+	border-style: solid;
+}
+
+.rightbar
+{
+	padding: 0px 10px 0px 10px;
+	flex: 10%
+}
+
+div.rightbar
+{
+	border-style: solid;
+}
+
+p.rightbar
+{
+	padding: 0px 5px 0px 5px;
+	width: 95%;
+}
