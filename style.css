@@ -20,18 +20,24 @@ a
 	flex: 25%;
 }
 
-img.headleft
+.headcentre
 {
-	padding: 0px;
-	border-style: solid;
-	border-radius: 5px;
-	border-color: black;
+	padding: 10px;
+	flex: 50%;
 }
 
 .headright
 {
 	padding: 10px;
-	flex: 75%;
+	flex: 25%;
+}
+
+img.headcentre
+{
+	padding: 0px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: black;
 }
 
 a.headright
