@@ -1,3 +1,5 @@
+/* General Element Stylings */
+
 body
 {
 	background-color: #d5dfeb;
@@ -10,11 +12,6 @@ a
 	color: #a30a0a;
 }
 
-a.bar
-{
-	font-weight: bold;
-}
-
 ul
 {
 	margin-left: -15px;
@@ -25,6 +22,8 @@ hr
 {
 	border: 1px solid black;
 }
+
+/* Header */
 
 .header
 {
@@ -80,10 +79,12 @@ hr
 		margin-bottom: 2px;
 	}
 	
-.body
+a.bar
 {
-	display: flex;
+	font-weight: bold;
 }
+
+/* Left Sidebar */
 
 .leftbar
 {
@@ -108,6 +109,8 @@ hr
 		width: 95%;
 	}
 
+/* Main Content */
+
 .main
 {
 	padding: 0px 10px 0px 10px;
@@ -119,6 +122,27 @@ hr
 		border-style: none none solid none;
 		background-color: #d5dfeb;
 	}
+	
+/* Directory Columns */
+
+.dirrow 
+{
+	display: flex;
+}
+
+.dircol2 
+{
+	/* This is for double columns */
+	flex: 50%;
+}
+
+.dircol3
+{
+	/* This is for triple columns */
+	flex:33%;
+}
+
+/* Right Sidebar */
 
 .rightbar
 {
@@ -142,6 +166,8 @@ hr
 		padding: 0px 5px 0px 5px;
 		width: 95%;
 	}
+
+/* Footer */
 
 .footer
 {
