@@ -11,6 +11,11 @@ a
 	font-weight: bold;
 }
 
+hr
+{
+	border: 1px solid black;
+}
+
 .header
 {
 	display: flex;
@@ -72,6 +77,11 @@ div.leftbar
 	border-style: none solid solid solid;
 	background-color: #63b0bf;
 	border-radius: 0px 0px 0px 15px;
+}
+
+h4.leftbar
+{
+	text-decoration: underline;
 }
 
 p.leftbar
