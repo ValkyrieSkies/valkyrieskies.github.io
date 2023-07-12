@@ -8,6 +8,10 @@ a
 {
 	text-decoration: none;
 	color: #a30a0a;
+}
+
+a.bar
+{
 	font-weight: bold;
 }
 
@@ -120,6 +124,11 @@ hr
 	{
 		border-style: none solid solid solid;
 		background-color: #98cad6;
+	}
+	
+	h4.rightbar
+	{
+		text-decoration: underline;
 	}
 
 	p.rightbar
