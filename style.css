@@ -1,3 +1,8 @@
+body
+{
+	background-color: #F1F1F1;
+}
+
 a
 {
 	text-decoration: none;
@@ -18,7 +23,9 @@ a
 img.headleft
 {
 	padding: 0px;
-	border-style: inset;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: black;
 }
 
 .headright
@@ -29,6 +36,7 @@ img.headleft
 
 a.headright
 {
+	background-color: #D3D3D3;
 	border-style: solid;
 	border-width: 1px;
 	font-weight: bold;
@@ -80,4 +88,13 @@ p.rightbar
 {
 	padding: 0px 5px 0px 5px;
 	width: 95%;
+}
+
+div.socialblock
+{
+	padding: 5px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+	background-color: #D3D3D3;
 }
