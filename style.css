@@ -15,7 +15,7 @@ a
 {
 	display: flex;
 	border-style: solid;
-	background-color: #98cad6;
+	background-color: #63b0bf;
 	border-radius: 15px 15px 0px 0px;
 }
 
@@ -43,7 +43,7 @@ img.headcentre
 	border-style: solid;
 	border-radius: 5px;
 	border-color: black;
-	background-color: #5a8a96;
+	background-color: #98cad6;
 }
 
 a.headright
@@ -70,7 +70,7 @@ a.headright
 div.leftbar
 {
 	border-style: none solid solid solid;
-	background-color: #98cad6;
+	background-color: #63b0bf;
 	border-radius: 0px 0px 0px 15px;
 }
 
@@ -101,7 +101,7 @@ div.main
 div.rightbar
 {
 	border-style: none solid solid solid;
-	background-color: #98cad6;
+	background-color: #63b0bf;
 	border-radius: 0px 0px 15px 0px;
 }
 
