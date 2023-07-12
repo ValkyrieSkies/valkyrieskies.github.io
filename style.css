@@ -51,14 +51,18 @@ hr
 	flex: 25%;
 }
 
-div.titlebar
+.titlebar
 {
-	border-style: solid;
-	border-style: none solid solid solid;
 	background-color: #63b0bf;
-	text-align: center;
-	padding: 1px;
 }
+
+	div.titlebar
+	{
+		border-style: solid;
+		border-style: none solid solid solid;
+		text-align: center;
+		padding: 1px;
+	}
 
 	h3.titlebar
 	{
@@ -126,10 +130,20 @@ div.titlebar
 
 .footer
 {
-	border-style: none solid solid solid;
 	background-color: #63b0bf;
-	border-radius: 0px 0px 15px 15px;
 	text-align: center;
 	padding: 1px;
-	font-size: 0.66em;
+	font-size: 0.8em;
 }
+
+	div.footer
+	{
+		border-style: none solid solid solid;
+		border-radius: 0px 0px 15px 15px;
+	}
+
+	p.footer
+	{
+		width: 50%;
+		margin: auto;
+	}
