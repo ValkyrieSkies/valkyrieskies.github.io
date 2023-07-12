@@ -15,6 +15,12 @@ a.bar
 	font-weight: bold;
 }
 
+ul
+{
+	margin-left: -15px;
+	list-style-type: square;
+}
+
 hr
 {
 	border: 1px solid black;
