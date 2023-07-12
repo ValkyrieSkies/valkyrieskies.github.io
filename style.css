@@ -81,7 +81,7 @@ hr
 
 .leftbar
 {
-	padding: 0px 10px 0px 10px;
+	padding: 0px 5px 0px 5px;
 	flex: 10%
 }
 
@@ -116,7 +116,7 @@ hr
 
 .rightbar
 {
-	padding: 0px 10px 0px 10px;
+	padding: 0px 5px 0px 5px;
 	flex: 10%
 }
 
