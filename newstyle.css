@@ -63,6 +63,11 @@ hr
 		margin: 0;
 	}
 	
+	.headright td
+	{
+		width: 33%;
+	}
+	
 	.headright img
 	{
 		padding: 0px;
