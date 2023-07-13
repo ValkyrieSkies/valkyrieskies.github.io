@@ -70,7 +70,7 @@ hr
 
 .titlebar
 {
-	background-color: #d5dfeb;
+	background-color: black;
 	border-style: none solid solid solid;
 }
 
@@ -96,6 +96,7 @@ hr
 	height: 25px;
 	display: inline-block;
 	margin: 0px;
+	padding: 0px;
 }
 
 /* Left Sidebar */
