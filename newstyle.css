@@ -48,7 +48,8 @@ hr
 		margin: 0px 0px 5px 0px;
 		border-color: black;
 		background-color: #d5dfeb;
-		width: 90%;
+		width: 600px;
+		max-width: 90%;
 	}
 
 .headright
