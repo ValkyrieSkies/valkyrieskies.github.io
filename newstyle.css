@@ -27,7 +27,7 @@ hr
 
 .header
 {
-	/* display: flex; */
+	display: flex;
 	border-style: solid;
 	background-color: #98cad6;
 	border-radius: 15px 15px 0px 0px;
@@ -36,8 +36,7 @@ hr
 .headleft
 {
 	padding: 10px 0px 5px 10px;
-	/* flex: 25%; */
-	float: left;
+	flex: 25%;
 }
 	img.headleft
 	{
@@ -54,8 +53,7 @@ hr
 .headright
 {
 	padding: 10px 0px 5px 10px;
-	/* flex: 75%; */
-	float: right;
+	flex: 75%;
 }
 
 	img.headright
@@ -73,11 +71,11 @@ hr
 .titlebar
 {
 	background-color: #d5dfeb;
+	border-style: none solid solid solid;
 }
 
 	div.titlebar
 	{
-		border-style: none solid solid solid;
 		padding: 1px;
 	}
 
