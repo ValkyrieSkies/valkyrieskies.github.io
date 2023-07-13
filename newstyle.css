@@ -90,6 +90,8 @@ hr
 
 	.nav li 
 	{
+		margin-right: 0px;
+		margin-left: 0px;
 		background-color: #d5dfeb;
 		display: inline-block;
 		padding: 5px 0px 5px 0px;
