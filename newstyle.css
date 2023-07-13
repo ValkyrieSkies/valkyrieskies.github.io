@@ -1,0 +1,161 @@
+/* General Element Stylings */
+
+body
+{
+	background-color: #d5dfeb;
+	font-family: verdana;
+}
+
+a
+{
+	text-decoration: none;
+	color: #a30a0a;
+}
+
+ul
+{
+	margin-left: -15px;
+	list-style-type: square;
+}
+
+hr
+{
+	border: 1px solid black;
+}
+
+/* Header */
+
+.header
+{
+	display: flex;
+	border-style: solid;
+	background-color: #98cad6;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.headleft
+{
+	padding: 10px;
+	flex: 25%;
+}
+
+.headright
+{
+	padding: 10px;
+	flex: 75%;
+}
+
+.titlebar
+{
+	background-color: #63b0bf;
+}
+
+	div.titlebar
+	{
+		border-style: solid;
+		border-style: none solid solid solid;
+		text-align: center;
+		padding: 1px;
+	}
+
+	h3.titlebar
+	{
+		margin-top: 2px;
+		margin-bottom: 2px;
+	}
+	
+a.bar
+{
+	font-weight: bold;
+}
+
+/* Left Sidebar */
+
+.leftbar
+{
+	padding: 0px 5px 0px 5px;
+	flex: 10%
+}
+
+	div.leftbar
+	{
+		border-style: none solid solid solid;
+		background-color: #98cad6;
+	}
+
+	h4.leftbar
+	{
+		text-decoration: underline;
+	}
+
+	p.leftbar
+	{
+		padding: 0px 5px 0px 5px;
+		width: 95%;
+	}
+
+/* Main Content */
+
+.body
+{
+	display: flex;
+}
+
+.main
+{
+	padding: 0px 10px 0px 10px;
+	flex: 80%;
+}
+
+	div.main
+	{
+		border-style: none none solid none;
+		background-color: #d5dfeb;
+	}
+	
+/* Right Sidebar */
+
+.rightbar
+{
+	padding: 0px 5px 0px 5px;
+	flex: 10%
+}
+
+	div.rightbar
+	{
+		border-style: none solid solid solid;
+		background-color: #98cad6;
+	}
+	
+	h4.rightbar
+	{
+		text-decoration: underline;
+	}
+
+	p.rightbar
+	{
+		padding: 0px 5px 0px 5px;
+		width: 95%;
+	}
+
+/* Footer */
+
+.footer
+{
+	background-color: #63b0bf;
+	text-align: center;
+	padding: 1px;
+	font-size: 0.7em;
+}
+
+	div.footer
+	{
+		border-style: none solid solid solid;
+		border-radius: 0px 0px 15px 15px;
+	}
+
+	p.footer
+	{
+		width: 50%;
+		margin: auto;
+	}
