@@ -127,19 +127,19 @@ a.bar
 
 .dirrow 
 {
-	display: flex;
+	float:left;
 }
 
 .dircol2 
 {
 	/* This is for double columns */
-	flex: 30%;
+	width: 30%;
 }
 
 .dircol3
 {
 	/* This is for triple columns */
-	flex:20%;
+	width:20%;
 }
 
 /* Right Sidebar */
