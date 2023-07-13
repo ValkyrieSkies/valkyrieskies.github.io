@@ -51,8 +51,12 @@ hr
 {
 	padding: 10px;
 	flex: 75%;
-	float: right;
 }
+
+	img.headright
+	{
+		float: right;
+	}
 
 .titlebar
 {
