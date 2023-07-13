@@ -56,7 +56,14 @@ hr
 	flex: 25%;
 }
 
-	.headright img
+	.headright table
+	{
+		float: right;
+		padding: 0;
+		margin: 0;
+	}
+	
+	/* .headright img
 	{
 		display: inline-block;
 		float: right;
@@ -66,7 +73,7 @@ hr
 		vertical-align: bottom;
 		max-width: 33%;
 		max-height: 33%;
-	}
+	} */
 
 .titlebar
 {
