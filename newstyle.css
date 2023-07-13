@@ -75,13 +75,12 @@ hr
 
 	div.titlebar
 	{
-		border-style: solid;
 		border-style: none solid solid solid;
 		text-align: center;
 		padding: 1px;
 	}
 
-	.nav 
+.nav 
 	{
 		background-color: yellow; 
 		list-style-type: none;
@@ -93,8 +92,8 @@ hr
 	.nav li 
 	{
 		display: inline-block;
-		font-size: 20px;
-		padding: 20px;
+		padding: 5px;
+		border-style: none solid none solid;
 	}
 	
 a.bar
