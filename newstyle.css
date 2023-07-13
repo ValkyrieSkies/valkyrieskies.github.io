@@ -36,7 +36,7 @@ hr
 .headleft
 {
 	padding: 10px 0px 5px 10px;
-	flex: 25%;
+	flex: 35%;
 }
 	img.headleft
 	{
@@ -54,7 +54,7 @@ hr
 .headright
 {
 	padding: 10px 0px 5px 10px;
-	flex: 75%;
+	flex: 65%;
 }
 
 	img.headright
