@@ -135,12 +135,14 @@ div.mainrow
 
 div.2col
 {
-	flex: 50%;
+	margin-left: 20%;
+	margin-right: 10%;
 }
 
 div.3col
 {
-	flex: 33%;
+	margin-left: 10%;
+	margin-right: 20%;
 }
 
 /* Right Sidebar */
