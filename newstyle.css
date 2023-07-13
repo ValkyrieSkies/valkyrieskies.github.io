@@ -36,7 +36,7 @@ hr
 .headleft
 {
 	padding: 10px 0px 5px 10px;
-	flex: 75%;
+	flex: 90%;
 }
 	.headleft img
 	{
@@ -53,7 +53,7 @@ hr
 .headright
 {
 	padding: 10px 10px 5px 0px;
-	flex: 25%;
+	flex: 10%;
 }
 
 	.headright table
