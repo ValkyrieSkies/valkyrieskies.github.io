@@ -59,16 +59,16 @@ hr
 	.headright table
 	{
 		float: right;
-		height: 25%;
-		width: 25%;
+		height: 10%;
+		width: 10%;
 		padding: 0;
 		margin: 0;
 	}
 	
 	.headright td, tr
 	{
-		height: 25%;
-		width: 25%;
+		height: 10%;
+		width: 10%;
 		margin: 0;
 		padding: 0;
 	}
