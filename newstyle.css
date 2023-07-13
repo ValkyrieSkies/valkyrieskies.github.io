@@ -90,9 +90,15 @@ hr
 
 	.nav li 
 	{
+		background-color: #d5dfeb;
 		display: inline-block;
 		padding: 5px 0px 5px 0px;
 		border-style: none solid none solid;
+	}
+	
+	.nav a
+	{
+	font-weight: bold;
 	}
 	
 a.bar
