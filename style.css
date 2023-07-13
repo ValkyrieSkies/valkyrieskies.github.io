@@ -133,13 +133,13 @@ a.bar
 .dircol2 
 {
 	/* This is for double columns */
-	flex: 50%;
+	flex: 30%;
 }
 
 .dircol3
 {
 	/* This is for triple columns */
-	flex:33%;
+	flex:20%;
 }
 
 /* Right Sidebar */
