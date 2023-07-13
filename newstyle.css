@@ -38,7 +38,7 @@ hr
 	padding: 10px 0px 5px 10px;
 	flex: 50%;
 }
-	img.headleft
+	.headleft img
 	{
 		float: left;
 		padding: 0px;
@@ -57,7 +57,7 @@ hr
 	flex: 50%;
 }
 
-	img.headright
+	.headright img
 	{
 		float: right;
 		height: 80%;
