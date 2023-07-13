@@ -36,7 +36,7 @@ hr
 .headleft
 {
 	padding: 10px 0px 5px 10px;
-	flex: 50%;
+	flex: 75%;
 }
 	.headleft img
 	{
@@ -47,15 +47,16 @@ hr
 		margin: 0px 0px 5px 0px;
 		border-color: black;
 		background-color: #d5dfeb;
+		max-width: 100%;
 	}
 
 .headright
 {
 	padding: 10px 0px 5px 10px;
-	flex: 50%;
+	flex: 25%;
 }
 
-	/* .headright img
+	.headright img
 	{
 		float: right;
 		height: 80%;
@@ -63,7 +64,7 @@ hr
 		margin-left: 3px;
 		margin-bottom: 0px;
 		vertical-align: bottom;
-	} */
+	}
 
 .titlebar
 {
