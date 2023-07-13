@@ -99,10 +99,12 @@ hr
 	padding: 0px;
 }
 
-.button p
+.button a
 {
 	padding: 2px 0px 0px 0px;
 	margin: 0px;
+	color: #C50105;
+	font-weight: bold;
 }
 
 /* Left Sidebar */
