@@ -47,7 +47,7 @@ hr
 		border-color: black;
 		background-color: #d5dfeb;
 		max-width: 100%;
-		height: auto;
+		width: auto;
 	}
 
 .headright
@@ -94,6 +94,7 @@ hr
 	width: 100px;
 	height: 25px;
 	display: inline-block;
+	margin: 0px;
 }
 
 /* Left Sidebar */
