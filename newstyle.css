@@ -76,14 +76,12 @@ hr
 	div.titlebar
 	{
 		border-style: none solid solid solid;
-		text-align: center;
 		padding: 1px;
 	}
 
 .button
 {
 	list-style-type: none;
-	text-align: center;
 	margin: 0;
 	padding: 0;
 }
