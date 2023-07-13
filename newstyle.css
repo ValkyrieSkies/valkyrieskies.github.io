@@ -80,6 +80,12 @@ hr
 		padding: 0px;
 	}
 
+.button
+{
+	background-image: url("/Images/barbutton.png");
+	text-align: center;
+}
+
 .nav 
 	{
 		list-style-type: none;
