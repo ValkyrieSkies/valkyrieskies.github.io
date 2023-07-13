@@ -37,6 +37,7 @@ hr
 {
 	padding: 10px 0px 5px 10px;
 	flex: 35%;
+	float: left;
 }
 	img.headleft
 	{
