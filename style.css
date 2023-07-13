@@ -111,6 +111,11 @@ a.bar
 
 /* Main Content */
 
+.body
+{
+	display: flex;
+}
+
 .main
 {
 	padding: 0px 10px 0px 10px;
