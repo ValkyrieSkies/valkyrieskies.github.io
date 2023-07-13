@@ -72,14 +72,15 @@ hr
 {
 	background-color: black;
 	border-style: none solid solid solid;
-	vertical-align: middle;
+	
 }
 
-/*	div.titlebar
+	div.titlebar
 	{
-		padding: 1px;
+		
+		vertical-align: middle;
 	}
-*/
+
 
 .button
 {
