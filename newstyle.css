@@ -43,6 +43,7 @@ hr
 {
 	padding: 10px;
 	flex: 75%;
+	float: right;
 }
 
 .titlebar
