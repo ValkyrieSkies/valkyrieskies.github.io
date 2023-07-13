@@ -61,6 +61,8 @@ hr
 		float: right;
 		padding: 0;
 		margin: 0;
+		max-width: 25%;
+		max-height: 25%;
 	}
 	
 	/* .headright img
