@@ -81,10 +81,20 @@ hr
 		padding: 1px;
 	}
 
-	h3.titlebar
+	.nav 
 	{
-		margin-top: 2px;
-		margin-bottom: 2px;
+		background-color: yellow; 
+		list-style-type: none;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+
+	.nav li 
+	{
+		display: inline-block;
+		font-size: 20px;
+		padding: 20px;
 	}
 	
 a.bar
