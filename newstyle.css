@@ -59,18 +59,24 @@ hr
 	.headright table
 	{
 		float: right;
-		height: 10%;
-		width: 10%;
+		height: 40%;
+		width: 40%;
 		padding: 0;
 		margin: 0;
 	}
 	
 	.headright td, tr
 	{
-		height: 10%;
-		width: 10%;
+		max-height: 20%;
+		max-width: 20%;
 		margin: 0;
 		padding: 0;
+	}
+	
+	.headright img
+	{
+		max-width: 20%;
+		max-height: 20%;
 	}
 
 .titlebar
