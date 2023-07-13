@@ -72,6 +72,7 @@ hr
 {
 	background-color: black;
 	border-style: none solid solid solid;
+	vertical-align: middle;
 }
 
 /*	div.titlebar
