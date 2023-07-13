@@ -122,25 +122,6 @@ a.bar
 		border-style: none none solid none;
 		background-color: #d5dfeb;
 	}
-	
-/* Directory Columns */
-
-.dirrow 
-{
-	float:left;
-}
-
-.dircol2 
-{
-	/* This is for double columns */
-	width: 30%;
-}
-
-.dircol3
-{
-	/* This is for triple columns */
-	width:20%;
-}
 
 /* Right Sidebar */
 
