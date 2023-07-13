@@ -52,7 +52,7 @@ hr
 
 .headright
 {
-	padding: 10px;
+	padding: 10px 0px 5px 10px;
 	flex: 75%;
 }
 
@@ -62,7 +62,10 @@ hr
 		height: 80%;
 		padding: 0px;
 		margin-left: 3px;
+		margin-bottom: 0px;
 		vertical-align: bottom;
+		max-width: 100%;
+		height: auto;
 	}
 
 .titlebar
