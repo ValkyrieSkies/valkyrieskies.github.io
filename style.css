@@ -127,6 +127,21 @@ a.bar
 		border-style: none none solid none;
 		background-color: #d5dfeb;
 	}
+	
+div.mainrow
+{
+	display: flex;
+}
+
+div.2col
+{
+	flex: 50%;
+}
+
+div.3col
+{
+	flex: 33%;
+}
 
 /* Right Sidebar */
 
