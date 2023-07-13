@@ -59,7 +59,7 @@ hr
 	.headright img
 	{
 		display: inline-block;
-
+		float: right;
 		padding: 0px;
 		margin-left: 3px;
 		margin-bottom: 0px;
