@@ -148,21 +148,14 @@ hr
 	}
 
 /* Main Content */
-
-.body
-{
-	display: flex;
-}
-
 .main
 {
-	padding: 0px 10px 0px 10px;
-	flex: 80%;
+	padding: 0px;
 }
 
 	div.main
 	{
-		border-style: none none solid none;
+		border-style: none solid solid solid;
 		background-color: #d5dfeb;
 	}
 	
