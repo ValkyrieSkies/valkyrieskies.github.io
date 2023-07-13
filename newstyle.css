@@ -63,9 +63,12 @@ hr
 		margin: 0;
 	}
 	
-	.headright td
+	.headright td, tr
 	{
+		height: 33%;
 		width: 33%;
+		margin: 0;
+		padding: 0;
 	}
 	
 	/* .headright img
