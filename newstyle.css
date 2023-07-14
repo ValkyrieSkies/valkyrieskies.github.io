@@ -138,6 +138,8 @@ hr
 	{
 		padding: 0px 10px 0px 10px;
 		float: left;
+		width: 50%;
+		max-width: 100%;
 	}
 
 /* Footer */
