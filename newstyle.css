@@ -134,6 +134,13 @@ hr
 		background-color: #d5dfeb;
 	}
 	
+	.main h3
+	{
+		padding: 0;
+		margin: 0;
+		text-decoration: underline;
+	}
+	
 div.2col
 {
 	padding: 0px 10px 0px 10px;
@@ -160,13 +167,6 @@ div.2col
 	border-radius: 15px;
 	float: right;
 }
-
-	.updatescol h3
-	{
-		padding: 0;
-		margin: 0;
-		text-decoration: underline;
-	}
 
 /* Footer */
 
