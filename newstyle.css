@@ -149,6 +149,12 @@ div.2col
   flex: 50%;
 }
 
+.updatescol {
+  flex: 50%;
+  background-color: #63b0bf;
+  border-radius: 15px;
+}
+
 /* Footer */
 
 .footer
