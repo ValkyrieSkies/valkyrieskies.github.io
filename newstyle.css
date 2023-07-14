@@ -141,6 +141,14 @@ div.2col
 	width: 45%;
 }
 
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
 /* Footer */
 
 .footer
