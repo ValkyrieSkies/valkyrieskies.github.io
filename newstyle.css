@@ -141,6 +141,11 @@ div.2col
 	width: 45%;
 }
 
+	.2col h3
+	{
+		text-decoration: underline;
+	}
+
 .row 
 {
 	display: flex;
