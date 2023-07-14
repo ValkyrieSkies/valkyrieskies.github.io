@@ -141,13 +141,6 @@ div.2col
 	width: 45%;
 }
 
-	.2col h3
-	{
-		padding: 0px;
-		margin-top: 0;
-		text-decoration: underline;
-	}
-
 .row 
 {
 	display: flex;
@@ -166,6 +159,13 @@ div.2col
 	background-color: #98cad6;
 	border-radius: 15px;
 }
+
+	.updatescol h3
+	{
+		padding: 0;
+		margin: 0;
+		text-decoration: underline;
+	}
 
 /* Footer */
 
