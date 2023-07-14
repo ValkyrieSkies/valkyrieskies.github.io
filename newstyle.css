@@ -134,13 +134,12 @@ hr
 		background-color: #d5dfeb;
 	}
 	
-	div.2col
-	{
-		padding: 0px 10px 0px 10px;
-		float: left;
-		width: 50%;
-		max-width: 100%;
-	}
+div.2col
+{
+	padding: 0px 10px 0px 10px;
+	float: left;
+	width: 45%;
+}
 
 /* Footer */
 
