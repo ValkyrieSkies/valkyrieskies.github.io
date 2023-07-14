@@ -141,18 +141,23 @@ div.2col
 	width: 45%;
 }
 
-.row {
-  display: flex;
+.row 
+{
+	display: flex;
 }
 
-.column {
-  flex: 50%;
+.column 
+{
+	padding: 10px;
+	flex: 50%;
 }
 
-.updatescol {
-  flex: 50%;
-  background-color: #63b0bf;
-  border-radius: 15px;
+.updatescol 
+{
+	padding: 10px;
+	flex: 50%;
+	background-color: #98cad6;
+	border-radius: 15px;
 }
 
 /* Footer */
