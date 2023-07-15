@@ -156,6 +156,11 @@ div.highlightbox
 	padding: 5px;
 }
 
+.highlightbox h4
+{
+	text-decoration: underline;
+}
+
 .row 
 {
 	display: flex;
