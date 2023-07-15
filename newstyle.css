@@ -148,6 +148,13 @@ div.2col
 	width: 45%;
 }
 
+div.highlightbox
+{
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 15px;
+}
+
 .row 
 {
 	display: flex;
