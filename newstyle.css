@@ -156,10 +156,12 @@ div.highlightbox
 	padding: 10px;
 }
 
-.highlightbox h4
-{
-	text-decoration: underline;
-}
+	.highlightbox h4
+	{
+		margin: 0;
+		padding: 0;
+		text-decoration: underline;
+	}
 
 .row 
 {
