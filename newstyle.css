@@ -128,20 +128,25 @@ hr
 	padding: 20px 10px 20px 10px;
 }
 
-.main img
-{
-	display: block;
-	border-style: solid;
-	border-width: 1px;
-	border-radius: 15px;
-	padding: 10px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	width: 50%;
-}
-
+	div.imgbox
+	{
+		display: block;
+		border-style: solid;
+		border-width: 1px;
+		border-radius: 15px;
+		padding: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		width: 60%;
+	}
+	
+	.imgbox img
+	{
+		width: 90%;
+	}
+		
 	div.main
 	{
 		border-style: none solid solid solid;
