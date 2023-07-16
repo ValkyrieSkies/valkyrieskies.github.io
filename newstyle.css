@@ -155,6 +155,11 @@ div.imgbox
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
+	.imgbox img
+	{
+		width: 50%;
+	}
 	
 	p.review
 	{
