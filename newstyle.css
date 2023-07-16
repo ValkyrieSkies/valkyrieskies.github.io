@@ -4,7 +4,7 @@ body
 {
 	background-color: #B4BBC4;
 	font-family: helvetica;
-	line-height: 150%;
+	line-height: 125%;
 }
 
 a
@@ -289,14 +289,14 @@ div.highlightbox
 .column 
 {
 	padding: 10px;
-	flex: 60%;
+	flex: 70%;
 }
 
 /* Right sidebar */
 
 .infocol 
 {
-	flex: 25%;
+	flex: 20%;
 	float: right;
 }
 
