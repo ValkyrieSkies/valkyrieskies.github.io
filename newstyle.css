@@ -289,14 +289,14 @@ div.highlightbox
 .column 
 {
 	padding: 10px;
-	flex: 80%;
+	flex: 60%;
 }
 
 /* Right sidebar */
 
 .infocol 
 {
-	flex: 20%;
+	flex: 25%;
 	float: right;
 }
 
