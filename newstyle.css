@@ -129,6 +129,12 @@ hr
 	padding: 20px 10px 20px 10px;
 }
 
+.article img
+{
+	width: 50%;
+	float: center;
+}
+
 	div.main
 	{
 		border-style: none solid solid solid;
