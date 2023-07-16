@@ -2,7 +2,7 @@
 
 body
 {
-	background-color: #B4BBC4;
+	background-color: #d5dfeb;
 	font-family: helvetica;
 	line-height: 125%;
 }
@@ -50,7 +50,7 @@ hr
 		margin-left: 0;
 		margin-right: 0;
 		/* border-color: black;
-		background-color: #d5dfeb; */
+		background-color: #D9EEF9; */
 		max-width: 100%;
 		height: 90%;
 	}
@@ -147,7 +147,7 @@ hr
 div.main
 {
 	border-style: none solid solid solid;
-	background-color: #d5dfeb;
+	background-color: #D9EEF9;
 }
 	
 div.imgbox
@@ -239,7 +239,7 @@ p.review
 	height: 50px;
 	font-size: 2em;
 	font-weight: 900;
-	background-color: #B4BBC4;
+	background-color: #d5dfeb;
 	color: #a30a0a;
 	display: block;
 	border-style: none;
@@ -306,7 +306,7 @@ div.highlightbox
 	div.infobox
 	{
 		padding: 10px;
-		background-color: #B4BBC4;
+		background-color: #d5dfeb;
 		border-radius: 15px;
 	}
 
