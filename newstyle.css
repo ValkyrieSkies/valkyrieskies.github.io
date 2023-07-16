@@ -139,7 +139,11 @@ hr
 		margin-right: auto;
 		margin-top: 10px;
 		margin-bottom: 10px;
-		width: 60%;
+	}
+	
+	.imgbox img
+	{
+		width: 50%;
 	}
 	
 	p.review
