@@ -142,9 +142,10 @@ hr
 		width: 60%;
 	}
 	
-	.imgbox img
+	p.review
 	{
-		width: 90%;
+		margin-top: 5px;
+		
 	}
 		
 	div.main
