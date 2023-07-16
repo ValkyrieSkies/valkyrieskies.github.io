@@ -2,7 +2,7 @@
 
 body
 {
-	background-color: #99A0A8;
+	background-color: #B4BBC4;
 	font-family: helvetica;
 }
 
@@ -187,7 +187,7 @@ div.imgbox
 	height: 50px;
 	font-size: 1.5em;
 	font-weight: strong;
-	background-color: #99A0A8;
+	background-color: #B4BBC4;
 	color: #a30a0a;
 	display: block;
 	border-style: none;
@@ -247,7 +247,7 @@ div.highlightbox
 {
 	padding: 10px;
 	flex: 20%;
-	background-color: #99A0A8;
+	background-color: #B4BBC4;
 	border-radius: 15px;
 	float: right;
 }
