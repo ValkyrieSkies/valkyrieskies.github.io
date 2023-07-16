@@ -2,7 +2,7 @@
 
 body
 {
-	background-color: #888F96;
+	background-color: #99A0A8;
 	font-family: helvetica;
 }
 
@@ -258,7 +258,7 @@ div.highlightbox
 {
 	padding: 10px;
 	flex: 20%;
-	background-color: #98cad6;
+	background-color: #99A0A8;
 	border-radius: 15px;
 	float: right;
 }
