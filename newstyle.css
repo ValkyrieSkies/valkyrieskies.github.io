@@ -130,7 +130,6 @@ hr
 
 	div.imgbox
 	{
-		display: block;
 		border-style: solid;
 		border-width: 1px;
 		border-radius: 15px;
@@ -143,6 +142,7 @@ hr
 	
 	.imgbox img
 	{
+		display: block;
 		width: 50%;
 	}
 	
