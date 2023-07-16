@@ -162,9 +162,9 @@ hr
 	
 .score
 {
-	width: 100px;
+	width: 200px;
 	height: 50px;
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: strong;
 	background-color: #63b0bf;
 	color: #a30a0a;
@@ -174,7 +174,7 @@ hr
 	padding: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	line-height: 100px;
+	line-height: 50px;
 	text-align: center;
 }
 	
