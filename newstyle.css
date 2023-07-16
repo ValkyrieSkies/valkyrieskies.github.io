@@ -195,7 +195,6 @@ div.duobox
 	div.duoleft
 	{
 		flex: 50%;
-		width: 50%;
 		margin-left: auto;
 		margin-right: auto;
 		border-style: solid;
@@ -210,7 +209,6 @@ div.duobox
 	div.duoright
 	{
 		flex: 50%;
-		width: 50%;
 		margin-left: auto;
 		margin-right: auto;
 		border-style: solid;
