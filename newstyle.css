@@ -43,11 +43,11 @@ hr
 	{
 		float: left;
 		padding: 0px;
-		border-style: solid;
-		border-radius: 15px 15px 15px 15px;
+		/* border-style: solid;
+		border-radius: 15px 15px 15px 15px; */
 		margin: 0px 0px 5px 0px;
-		border-color: black;
-		background-color: #d5dfeb;
+		/* border-color: black;
+		background-color: #d5dfeb; */
 		max-width: 100%;
 		height: 90%;
 	}
