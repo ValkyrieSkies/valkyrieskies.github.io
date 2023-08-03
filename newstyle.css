@@ -32,7 +32,7 @@ hr
 {
 	display: flex;
 	border-style: solid;
-	background-color: #818589;
+	background-color: #E5E4E2;
 	border-radius: 15px 15px 0px 0px;
 }
 
@@ -149,7 +149,7 @@ hr
 div.main
 {
 	border-style: none solid solid solid;
-	background-color: #E5E4E2;
+	background-color: #818589;
 }
 	
 div.imgbox
@@ -313,7 +313,7 @@ div.highlightbox
 
 .footer
 {
-	background-color: #818589;
+	background-color: #E5E4E2;
 	text-align: center;
 	padding: 1px;
 	font-size: 0.7em;
