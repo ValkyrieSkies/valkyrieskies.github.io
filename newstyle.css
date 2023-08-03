@@ -32,7 +32,7 @@ hr
 {
 	display: flex;
 	border-style: solid;
-	background-color: #708090;
+	background-color: #888888;
 	border-radius: 15px 15px 0px 0px;
 }
 
@@ -312,7 +312,7 @@ div.highlightbox
 
 .footer
 {
-	background-color: #708090;
+	background-color: #888888;
 	text-align: center;
 	padding: 1px;
 	font-size: 0.7em;
