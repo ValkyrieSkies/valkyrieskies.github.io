@@ -6,7 +6,7 @@ body
 	font-family: helvetica;
 	line-height: 125%;
 	color: white;
-	border-color: #C0C0C0;
+	border-color: #D3D3D3;
 }
 
 a
@@ -23,7 +23,6 @@ ul
 
 hr
 {
-	height: 1px;
 	color: white;
 }
 
@@ -149,7 +148,7 @@ hr
 div.main
 {
 	border-style: none solid solid solid;
-	background-color: #36454F;
+	background-color: #282828;
 }
 	
 div.imgbox
