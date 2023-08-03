@@ -12,7 +12,7 @@ body
 a
 {
 	text-decoration: none;
-	color: #C41E3A;
+	color: #D2042D;
 }
 
 ul
@@ -148,7 +148,7 @@ hr
 div.main
 {
 	border-style: none solid solid solid;
-	background-color: #818589;
+	background-color: #36454F;
 }
 	
 div.imgbox
@@ -304,7 +304,7 @@ div.highlightbox
 	div.infobox
 	{
 		padding: 10px;
-		background-color: #899499;
+		background-color: #818589;
 		border-radius: 15px;
 	}
 
