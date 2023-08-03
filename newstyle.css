@@ -6,7 +6,7 @@ body
 	font-family: helvetica;
 	line-height: 125%;
 	color: white;
-	border-color: DimGray;
+	border-color: #A9A9A9;
 }
 
 a
@@ -23,7 +23,7 @@ ul
 
 hr
 {
-	color: #202020;
+	color: #A9A9A9;
 }
 
 /* Header */
