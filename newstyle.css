@@ -2,7 +2,7 @@
 
 body
 {
-	background-color: #36454F;
+	background-color: #181818;
 	font-family: helvetica;
 	line-height: 125%;
 	color: white;
@@ -304,7 +304,7 @@ div.highlightbox
 	div.infobox
 	{
 		padding: 10px;
-		background-color: #818589;
+		background-color: #404040;
 		border-radius: 15px;
 	}
 
