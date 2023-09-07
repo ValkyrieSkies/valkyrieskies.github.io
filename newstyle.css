@@ -203,7 +203,7 @@ div.duobox
 	div.duoleft
 	{
 		
-		flex: 50%;
+		flex: 40%;
 		margin-left: auto;
 		margin-right: 10px;
 		border-style: none;
@@ -217,7 +217,7 @@ div.duobox
 
 	div.duoright
 	{
-		flex: 50%;
+		flex: 40%;
 		margin-left: 10px;
 		margin-right: auto;
 		border-style: none;
