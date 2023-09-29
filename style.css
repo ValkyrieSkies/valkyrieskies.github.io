@@ -282,12 +282,12 @@ div.highlightbox
 		padding: 0;
 	}
 	
-.row 
+.primarycontent
 {
 	display: flex;
 }
 
-.column 
+.maincol
 {
 	padding: 10px;
 	flex: 70%;
