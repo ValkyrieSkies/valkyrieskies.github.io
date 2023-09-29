@@ -240,7 +240,7 @@ div.profilebox
 	.profilebox img
 	{
 		width: 95%;
-		border-radius: 15px;
+		border-radius: 10%;
 	}
 	
 	.profilebox p
