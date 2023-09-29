@@ -239,7 +239,7 @@ div.profilebox
 
 	.profilebox img
 	{
-		width: 75%;
+		width: 90%;
 	}
 	
 	.profilebox p
@@ -252,7 +252,7 @@ div.profilebox
 	div.profileleft
 	{
 		
-		flex: 20%;
+		flex: 5%;
 		margin-right: 10px;
 		border-style: none;
 		border-width: 1px;
@@ -264,7 +264,7 @@ div.profilebox
 
 	div.profileright
 	{
-		flex: 80%;
+		flex: 95%;
 		margin-left: 10px;
 		border-style: none;
 		border-width: 1px;
