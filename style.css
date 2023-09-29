@@ -236,11 +236,6 @@ div.profilebox
 	border-width: 1px;
 	border-radius: 15px;
 }
-
-	.profilebox img
-	{
-		width: 100%;
-	}
 	
 	.profilebox p
 	{
@@ -252,7 +247,7 @@ div.profilebox
 	div.profileleft
 	{
 		
-		flex: 10%;
+		flex: 15%;
 		margin-right: 10px;
 		border-style: none;
 		border-width: 1px;
@@ -264,7 +259,7 @@ div.profilebox
 
 	div.profileright
 	{
-		flex: 90%;
+		flex: 85%;
 		margin-left: 10px;
 		border-style: none;
 		border-width: 1px;
