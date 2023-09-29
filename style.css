@@ -236,7 +236,7 @@ div.profilebox
 
 	.profilebox img
 	{
-		width: 75%;
+		width: 20%;
 	}
 	
 	.profilebox p
@@ -258,7 +258,6 @@ div.profilebox
 		padding: 10px;
 		margin-top: 10px;
 		margin-bottom: 10px;
-		text-align: center;
 	}
 
 	div.profileright
