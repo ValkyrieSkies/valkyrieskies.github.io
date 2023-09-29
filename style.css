@@ -229,6 +229,53 @@ div.duobox
 		text-align: center;
 	}
 	
+div.profilebox
+{
+	display: flex;
+}
+
+	.profilebox img
+	{
+		width: 75%;
+	}
+	
+	.profilebox p
+	{
+		font-size: 0.75em;
+		margin-top: 2px;
+		margin-bottom: 2px;
+	}
+
+	div.profileleft
+	{
+		
+		flex: 20%;
+		margin-left: auto;
+		margin-right: 10px;
+		border-style: none;
+		border-width: 1px;
+		border-radius: 15px;
+		padding: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+
+	div.profileright
+	{
+		flex: 80%;
+		margin-left: 10px;
+		margin-right: auto;
+		border-style: none;
+		border-width: 1px;
+		border-radius: 15px;
+		padding: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		text-align: left;
+	}
+		
+	
 p.review
 {
 	margin-top: 5px;
