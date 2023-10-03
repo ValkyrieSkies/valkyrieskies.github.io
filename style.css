@@ -243,8 +243,6 @@ div.profilebox
 		width: 95%;
 		border-radius: 15px;
 		vertical-align: center;
-		margin-top: auto;
-		margin-bottom: auto;
 	}
 	
 	.profilebox p
@@ -258,17 +256,18 @@ div.profilebox
 	{
 		
 		flex: 10%;
-		padding: 2px;
+		padding: 3px;
 		margin-right: 5px;
 		margin-left: 5px;
-		margin-top: 2px;
-		margin-bottom: 2px;
+		margin-top: auto;
+		margin-bottom: auto;
+		vertical-align: center;
 	}
 
 	div.profileright
 	{
 		flex: 90%;		
-		padding: 2px;
+		padding: 3px;
 		margin-left: 5px;
 		margin-right: 5px;
 		margin-top: 2px;
