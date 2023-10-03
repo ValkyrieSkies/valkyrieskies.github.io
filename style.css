@@ -243,6 +243,8 @@ div.profilebox
 		width: 95%;
 		border-radius: 15px;
 		vertical-align: center;
+		margin-top: auto;
+		margin-bottom: auto;
 	}
 	
 	.profilebox p
