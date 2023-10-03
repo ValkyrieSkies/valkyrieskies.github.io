@@ -235,7 +235,6 @@ div.profilebox
 	display: flex;
 	border-style: solid;
 	border-width: 1px;
-	border-radius: 15px;
 }
 
 	.profilebox img
