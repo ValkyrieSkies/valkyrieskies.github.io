@@ -241,7 +241,7 @@ div.profilebox
 	.profilebox img
 	{
 		width: 100%;
-		border-radius: 50%;
+		border-radius: 33%;
 		vertical-align: center;
 	}
 	
