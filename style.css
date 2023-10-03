@@ -240,8 +240,8 @@ div.profilebox
 
 	.profilebox img
 	{
-		width: 95%;
-		border-radius: 20%;
+		width: 100%;
+		border-radius: 15px;
 		vertical-align: center;
 	}
 	
