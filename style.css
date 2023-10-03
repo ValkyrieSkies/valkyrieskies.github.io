@@ -254,10 +254,10 @@ div.profilebox
 
 	div.profileleft
 	{
-		
+		padding: 5px;
 		flex: 10%;
 		margin-right: 5px;
-		margin-left: 2px;
+		margin-left: 5px;
 		margin-top: auto;
 		margin-bottom: auto;
 		vertical-align: center;
