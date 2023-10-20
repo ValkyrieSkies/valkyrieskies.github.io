@@ -353,13 +353,8 @@ div.highlightbox
 
 .kofibutton
 {
-	text-align: center;
+	text-align: right;
 }
-
-	.kofibutton img
-	{
-		width: 90%;
-	}
 
 /* Footer */
 
