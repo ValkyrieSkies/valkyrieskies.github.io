@@ -356,6 +356,11 @@ div.highlightbox
 	text-align: center;
 }
 
+	.kofibutton img
+	{
+		width: 90%;
+	}
+
 /* Footer */
 
 .footer
