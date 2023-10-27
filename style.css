@@ -270,12 +270,6 @@ div.profilebox
 		margin-left: 5px;
 		margin-right: 5px;
 	}
-		
-	
-p.review
-{
-	margin-top: 5px;
-}
 	
 .score
 {
@@ -336,11 +330,9 @@ div.highlightbox
 	flex: 70%;
 }
 
-/* Right sidebar */
-
 .infocol 
 {
-	flex: 20%;
+	flex: 30%;
 	float: right;
 }
 
@@ -350,6 +342,29 @@ div.highlightbox
 		background-color: #404040;
 		border-radius: 15px;
 	}
+
+@media screen and (max-width: 720px)
+{
+	.maincol
+	{
+		padding: 10px;
+		float: top;
+	}
+	
+	.infocol 
+	{
+		float: bottom;
+	}
+	
+	div.infobox
+	{
+		padding: 10px;
+		background-color: #404040;
+		border-radius: 15px;
+	}
+}
+
+
 
 .kofibutton
 {
