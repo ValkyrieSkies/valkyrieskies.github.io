@@ -357,7 +357,8 @@ div.highlightbox
 {
 	.primarycontent
 	{
-		
+		display: flex;
+		flex-direction: column;
 	}
 	
 	.maincol
