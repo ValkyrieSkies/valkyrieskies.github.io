@@ -350,7 +350,7 @@ div.highlightbox
 
 	.kofibutton img
 	{
-		width: 66%;
+		width: 100%;
 	}
 
 @media screen and (max-width: 720px)
@@ -373,16 +373,6 @@ div.highlightbox
 		background-color: #404040;
 		border-radius: 15px;
 	}
-	
-	.kofibutton
-	{
-		text-align: center;
-	}
-
-		.kofibutton img
-		{
-			width: 75%;
-		}
 		
 	div.profilebox
 	{
