@@ -327,13 +327,13 @@ div.highlightbox
 .maincol
 {
 	padding: 10px;
-	flex: 80%;
+	flex: 75%;
 	margin-right: 15px;
 }
 
 .infocol 
 {
-	flex: 20%;
+	flex: 25%;
 	float: right;
 }
 
@@ -351,7 +351,7 @@ div.highlightbox
 
 	.kofibutton img
 	{
-		max-width: 66%;
+		width: 66%;
 	}
 
 @media screen and (max-width: 720px)
@@ -382,7 +382,7 @@ div.highlightbox
 
 		.kofibutton img
 		{
-			width: 100%;
+			width: 75%;
 		}
 }
 
