@@ -350,7 +350,8 @@ div.highlightbox
 
 	.kofibutton img
 	{
-		width: 100%;
+		width: 95%;
+		border-radius: 15px;
 	}
 
 @media screen and (max-width: 720px)
