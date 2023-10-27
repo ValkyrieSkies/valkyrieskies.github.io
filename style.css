@@ -397,7 +397,12 @@ div.highlightbox
 		{
 			width: 50%;
 			border-radius: 50%;
-			vertical-align: center;
+			text-align: center;
+		}
+		
+		.profilebox h4
+		{
+			text-align: center;
 		}
 		
 		.profilebox p
@@ -412,7 +417,7 @@ div.highlightbox
 			margin-left: auto;
 			margin-top: auto;
 			margin-bottom: auto;
-			vertical-align: center;
+			text-align: center;
 		}
 
 		div.profileright
