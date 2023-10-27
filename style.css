@@ -270,6 +270,11 @@ div.profilebox
 		margin-right: 5px;
 	}
 	
+	p.systems
+	{
+		align-self: flex-end;
+	}
+	
 .score
 {
 	width: 200px;
