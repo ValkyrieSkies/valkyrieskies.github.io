@@ -343,29 +343,6 @@ div.highlightbox
 		border-radius: 15px;
 	}
 
-@media screen and (max-width: 720px)
-{
-	.maincol
-	{
-		padding: 10px;
-		float: top;
-	}
-	
-	.infocol 
-	{
-		float: bottom;
-	}
-	
-	div.infobox
-	{
-		padding: 10px;
-		background-color: #404040;
-		border-radius: 15px;
-	}
-}
-
-
-
 .kofibutton
 {
 	text-align: center;
@@ -375,6 +352,41 @@ div.highlightbox
 	{
 		max-width: 66%;
 	}
+
+@media screen and (max-width: 720px)
+{
+	.primarycontent
+	{
+		
+	}
+	
+	.maincol
+	{
+		padding: 10px;
+	}
+	
+	.infocol 
+	{
+		
+	}
+	
+	div.infobox
+	{
+		padding: 10px;
+		background-color: #404040;
+		border-radius: 15px;
+	}
+	
+	.kofibutton
+	{
+		text-align: center;
+	}
+
+		.kofibutton img
+		{
+			width: 100%;
+		}
+}
 
 /* Footer */
 
