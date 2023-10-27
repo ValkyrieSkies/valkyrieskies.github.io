@@ -327,13 +327,13 @@ div.highlightbox
 .maincol
 {
 	padding: 10px;
-	flex: 70%;
+	flex: 80%;
 	margin-right: 15px;
 }
 
 .infocol 
 {
-	flex: 30%;
+	flex: 20%;
 	float: right;
 }
 
