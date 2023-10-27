@@ -270,13 +270,9 @@ div.profilebox
 		margin-right: 5px;
 	}
 	
-	.profilebox p.systems
+	p.systems
 	{
-		align-self: bottom;
-		justify-content: bottom;
-		vertical-align: bottom;
-		margin-top: auto;
-		margin-bottom: 0px;
+		float: bottom;
 	}
 	
 .score
