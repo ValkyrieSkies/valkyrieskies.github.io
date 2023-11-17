@@ -155,7 +155,7 @@ div.main
 div.imgbox
 {
 	display: block;
-	width: 50%;
+	width: 66%;
 	margin-left: auto;
 	margin-right: auto;
 	border-style: none;
@@ -191,7 +191,7 @@ div.duobox
 
 	.duobox img
 	{
-		width: 75%;
+		width: 80%;
 	}
 	
 	.duobox p
