@@ -374,6 +374,14 @@ div.highlightbox
 	{
 		padding: 10px;
 		margin-right: 0px;
+		flex: 100%;
+		float: left;
+	}
+	
+	.infocol
+	{
+		flex: 100%;
+		float: left;
 	}
 	
 	div.infobox
@@ -387,9 +395,9 @@ div.highlightbox
 	{
 		display: flex;
 		flex-direction: column;
-		border-style: solid;
+		border-style: none;
 		border-width: 1px;
-		border-radius: 5px;
+		border-radius: 15px;
 	}
 
 		.profilebox img
