@@ -233,7 +233,7 @@ div.duobox
 div.profilebox
 {
 	display: flex;
-	border-style: solid;
+	border-style: none;
 	border-width: 1px;
 	border-radius: 5px;
 	background-color: #404040;
@@ -301,7 +301,7 @@ div.2col
 div.highlightbox
 {
 	background-color: #404040;
-	border-style: solid;
+	border-style: none;
 	border-width: 1px;
 	border-radius: 15px;
 	padding: 10px;
