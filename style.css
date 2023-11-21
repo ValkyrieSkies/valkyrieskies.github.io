@@ -380,13 +380,13 @@ div.highlightbox
 	
 	.infocol
 	{
+		padding: 10px;
 		flex: 100%;
 		float: left;
 	}
 	
 	div.infobox
 	{
-		padding: 10px;
 		background-color: #404040;
 		border-radius: 15px;
 	}
