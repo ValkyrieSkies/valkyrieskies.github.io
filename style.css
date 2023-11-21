@@ -236,6 +236,7 @@ div.profilebox
 	border-style: solid;
 	border-width: 1px;
 	border-radius: 5px;
+	background-color: #404040;
 }
 
 	.profilebox img
@@ -299,6 +300,7 @@ div.2col
 
 div.highlightbox
 {
+	background-color: #404040;
 	border-style: solid;
 	border-width: 1px;
 	border-radius: 15px;
