@@ -307,7 +307,7 @@ div.highlightbox
 
 	.highlightbox p
 	{
-		padding: 0px;
+		margin: 0;
 		font-size: 0.9em;
 	}
 
