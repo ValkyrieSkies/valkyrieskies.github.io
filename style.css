@@ -349,7 +349,7 @@ div.highlightbox
 	{
 		background-color: #404040;
 		border-radius: 15px;
-		padding: 10px;
+		padding: 0px 10px 10px 10px;
 	}
 
 .kofibutton
