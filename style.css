@@ -342,11 +342,11 @@ div.highlightbox
 {
 	flex: 30%;
 	float: right;
+	padding: 10px;
 }
 
 	div.infobox
 	{
-		padding: 10px;
 		background-color: #404040;
 		border-radius: 15px;
 	}
