@@ -343,9 +343,6 @@ div.highlightbox
 	flex: 30%;
 	float: right;
 	padding: 0px 10px 10px 10px;
-	/* border-style: none;
-	border-width: 1px;
-	border-color: #A9A9A9; */
 }
 
 	div.infobox
@@ -365,6 +362,11 @@ div.highlightbox
 		width: 95%;
 		border-radius: 15px;
 	}
+	
+.mobiledivider
+{
+	display: none;
+}
 
 @media screen and (max-width: 719px)
 {
@@ -381,14 +383,16 @@ div.highlightbox
 		float: none;
 	}
 	
+	.mobiledivider
+	{
+		display: block;
+	}
+	
 	.infocol
 	{
 		padding: 10px;
 		flex: 100%;
 		float: none;
-		border-style: solid none none none;
-		border-width: 2px;
-		border-color: #A9A9A9;
 	}
 	
 	div.infobox
