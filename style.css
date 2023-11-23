@@ -365,7 +365,7 @@ div.highlightbox
 	
 .mobiledivider
 {
-	display: none;
+	visibility: hidden;
 }
 
 @media screen and (max-width: 719px)
@@ -385,7 +385,7 @@ div.highlightbox
 	
 	.mobiledivider
 	{
-		display: initial;
+		visibility: visible;
 	}
 	
 	.infocol
