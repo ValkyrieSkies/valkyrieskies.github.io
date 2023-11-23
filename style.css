@@ -383,6 +383,8 @@ div.highlightbox
 		padding: 10px;
 		flex: 100%;
 		float: none;
+		border-style: solid none none none;
+		border-width: 2px;
 	}
 	
 	div.infobox
