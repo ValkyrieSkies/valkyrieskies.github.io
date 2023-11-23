@@ -345,6 +345,7 @@ div.highlightbox
 	padding: 0px 10px 10px 10px;
 	border-style: none none none solid;
 	border-width: 2px;
+	border-color: #A9A9A9;
 }
 
 	div.infobox
@@ -387,6 +388,7 @@ div.highlightbox
 		float: none;
 		border-style: solid none none none;
 		border-width: 2px;
+		border-color: #A9A9A9;
 	}
 	
 	div.infobox
