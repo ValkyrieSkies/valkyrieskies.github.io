@@ -386,6 +386,11 @@ div.highlightbox
 		float: left;
 	}
 	
+	div.imgbox
+	{
+		width: 100%;
+	}
+	
 	div.infobox
 	{
 		background-color: #404040;
