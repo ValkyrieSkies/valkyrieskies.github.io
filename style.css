@@ -385,7 +385,7 @@ div.highlightbox
 	
 	.mobiledivider
 	{
-		display: inline;
+		display: inline-block;
 	}
 	
 	.infocol
