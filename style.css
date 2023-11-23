@@ -374,16 +374,15 @@ div.highlightbox
 	.maincol
 	{
 		padding: 10px;
-		margin-right: 0px;
 		flex: 100%;
-		float: left;
+		float: none;
 	}
 	
 	.infocol
 	{
 		padding: 10px;
 		flex: 100%;
-		float: left;
+		float: none;
 	}
 	
 	div.infobox
