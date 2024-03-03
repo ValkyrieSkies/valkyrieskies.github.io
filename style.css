@@ -130,7 +130,11 @@ hr
 	font-weight: bold;
 	line-height: 25px;
 	color: #cc6600;
-	text-shadow: 1px 1px 1px black;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000; 
 }
 
 /* Main Content */
