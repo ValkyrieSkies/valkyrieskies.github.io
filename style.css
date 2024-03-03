@@ -129,7 +129,8 @@ hr
 	padding: 0px;
 	font-weight: bold;
 	line-height: 25px;
-	color: white;
+	color: black;
+	text-decoration: underline;
 }
 
 /* Main Content */
