@@ -482,7 +482,7 @@ details[open] summary {
 
 .footer
 {
-	background-color: black;
+	background-color: #1a1a1a;
 	text-align: center;
 	padding: 1px;
 	font-size: 0.7em;
@@ -498,4 +498,5 @@ details[open] summary {
 	{
 		width: 50%;
 		margin: auto;
+		color: white;
 	}
