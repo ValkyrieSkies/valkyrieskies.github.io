@@ -131,10 +131,10 @@ hr
 	line-height: 25px;
 	color: #ff8000;
 	text-shadow:
-		-1px -1px 0 #804000,
-		1px -1px 0 #804000,
-		-1px 1px 0 #804000,
-		1px 1px 0 #804000; 
+		-1px -1px 0 #333333,
+		1px -1px 0 #333333,
+		-1px 1px 0 #333333,
+		1px 1px 0 #333333; 
 }
 
 /* Main Content */
