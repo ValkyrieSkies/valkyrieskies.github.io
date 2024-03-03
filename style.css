@@ -5,7 +5,7 @@ body
 	background-color: #181818;
 	font-family: helvetica;
 	line-height: 125%;
-	color: white;
+	color: black;
 	border-color: #A9A9A9;
 	width: 80%;
 	margin-left: auto;
@@ -152,7 +152,7 @@ hr
 div.main
 {
 	border-style: none solid solid solid;
-	background-color: #0d0d0d;
+	background-color: white;
 }
 	
 div.imgbox
