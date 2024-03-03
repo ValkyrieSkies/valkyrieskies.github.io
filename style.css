@@ -286,7 +286,7 @@ div.profilebox
 	height: 50px;
 	font-size: 2em;
 	font-weight: 900;
-	color: #fcc200;
+	color: #b38f00;
 	display: block;
 	padding: 10px;
 	margin-left: auto;
@@ -482,7 +482,7 @@ details[open] summary {
 
 .footer
 {
-	background-color: #1a1a1a;
+	background-color: #333333;
 	text-align: center;
 	padding: 1px;
 	font-size: 0.7em;
