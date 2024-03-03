@@ -2,7 +2,7 @@
 
 body
 {
-	background-color: #d0d0d0;
+	background-color: #d7d7d7;
 	font-family: helvetica;
 	line-height: 125%;
 	color: black;
@@ -239,7 +239,7 @@ div.profilebox
 	border-style: none;
 	border-width: 1px;
 	border-radius: 15px;
-	background-color: #d0d0d0;
+	background-color: #d7d7d7;
 }
 
 	.profilebox img
@@ -350,7 +350,7 @@ div.highlightbox
 
 	div.infobox
 	{
-		background-color: #d0d0d0;
+		background-color: #d7d7d7;
 		border-radius: 15px;
 		padding: 10px;
 	}
@@ -375,7 +375,7 @@ details {
   border: 1px solid #aaa;
   border-radius: 4px;
   padding: 0.5em 0.5em 0;
-  background-color: #d0d0d0;
+  background-color: #d7d7d7;
 }
 
 summary {
@@ -429,7 +429,7 @@ details[open] summary {
 	
 	div.infobox
 	{
-		background-color: #d0d0d0;
+		background-color: #d7d7d7;
 		border-radius: 15px;
 	}
 		
