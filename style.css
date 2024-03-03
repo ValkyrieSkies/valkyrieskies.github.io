@@ -15,7 +15,7 @@ body
 a
 {
 	text-decoration: none;
-	color: #e68a00;
+	color: #ff7300;
 }
 
 ul
@@ -152,7 +152,7 @@ hr
 div.main
 {
 	border-style: none solid solid solid;
-	background-color: #ff7300;
+	background-color: #0d0d0d;
 }
 	
 div.imgbox
