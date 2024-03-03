@@ -486,7 +486,6 @@ details[open] summary {
 	text-align: center;
 	padding: 1px;
 	font-size: 0.7em;
-	color: white;
 }
 
 	div.footer
@@ -495,8 +494,8 @@ details[open] summary {
 		border-radius: 0px 0px 15px 15px;
 	}
 
-	p.footer
+	.footer p
 	{
-		width: 50%;
+		color: white;
 		margin: auto;
 	}
