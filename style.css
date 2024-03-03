@@ -7,6 +7,7 @@ body
 	line-height: 125%;
 	color: white;
 	border-color: #A9A9A9;
+	width: 80%;
 }
 
 a
@@ -394,6 +395,11 @@ details[open] summary {
 /* Mobile scaling */
 @media screen and (max-width: 719px)
 {
+	body
+	{
+		width: 100%;
+	}
+	
 	.primarycontent
 	{
 		display: flex;
