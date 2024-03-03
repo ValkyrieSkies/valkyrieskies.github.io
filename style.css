@@ -486,6 +486,7 @@ details[open] summary {
 	text-align: center;
 	padding: 1px;
 	font-size: 0.7em;
+	color: white;
 }
 
 	div.footer
@@ -498,5 +499,4 @@ details[open] summary {
 	{
 		width: 50%;
 		margin: auto;
-		color: white;
 	}
