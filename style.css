@@ -30,6 +30,11 @@ hr
 	color: #A9A9A9;
 }
 
+li
+{
+	margin-bottom: 2px;
+}
+
 /* Header */
 
 .header
