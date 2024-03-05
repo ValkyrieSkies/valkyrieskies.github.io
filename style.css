@@ -3,7 +3,7 @@
 body
 {
 	background-color: #bababa;
-	font-family: helvetica;
+	font-family: helvetica, sans-serif;
 	line-height: 125%;
 	color: black;
 	border-color: #A9A9A9;
@@ -131,7 +131,7 @@ hr
 	font-weight: bold;
 	line-height: 25px;
 	color: white;
-	font-family: optima;
+	font-family: "Trebuchet MS", sans-serif;
 	text-shadow: 1px 1px 1px #333333;
 }
 
