@@ -72,21 +72,24 @@
 						<p>Now, let’s get to the substance of this article, the performance breakdown of each image format. I’ve prepared 3 distinctly different types of image for the test to provide a varied look at how each format deals with them.</p>
 						
 						<h4>Image 1 - Photograph</h4><hr>
-						
+						<p>For the first image to test, I chose a photograph of my cats Char & CC snoozing together on their bed by the back door, really showing off that I need to give the doormat a quick vacuum, but for the purposes of this test those extra gritty details are probably useful! Photographs tend to be dense with detail with constantly shifting shades and tones you won't find in many digitally created images, however a lot of those details can be smudged and compressed without any major loss to image clarity. As a format designed for use with photographs in particular, this should be the type of image JPG is most comfortable with.</p>
 						<h4>100% Quality</h4>
 						<div class="imgbox">
 							<img src="/tech/img/articles/imageformats/Cat100Chart.png" alt="Placeholder">
 						</div>
+						<p>Unsurprisingly, the PNG version of this image is the largest image that will be featured in this entire article, as the original image is rich with fine detail such as the detail present on Char & CC's tortoiseshell fur and the many uneven textures present throughout, from the material of the bed to the concrete surface outside. While JPG shows a solid reduction in size compared to PNG, WebP almost matches that again for JPG and quickly shows up the older format in terms of efficiency at minimal levels of compression. Even the lossless version of the WebP conversion almost matches the lossy JPG format in terms of filesize.</p>
 						
 						<h4>85% Quality</h4>
 						<div class="imgbox">
 							<img src="/tech/img/articles/imageformats/Cat85Chart.png" alt="Placeholder">
 						</div>
+						<p>Once we drop the quality level below 100% however, JPG makes quite the resurgence and draws very close to the size of the WebP image while even managing to defeat the younger AVIF format in terms of file size. Perhaps if I had a GPU with a native AV1 encoder I'd be able to push the AVIF version to a smaller size than the JPG, but for now it looks like the older format can still do a decent job within its comfort zone. WebP still proves to be the best of the bunch overall however, which will become a pretty common trend throughout this article.</p>
 						
 						<h4>50% Quality</h4>
 						<div class="imgbox">
 							<img src="/tech/img/articles/imageformats/Cat50Chart.png" alt="Placeholder">
 						</div>
+						<p>I've gotta say, it was pretty interesting to see AVIF suddenly match JPG in terms of compression efficiency again after having lost to it by a notable margin in the 85% quality comparison. I can only speculate that perhaps JPG is superior when it comes to the initial stages of compression but AVIF's algorithms prove superior the more you try to compress it tighter and tighter. The differences in the file sizes are pretty negligible between formats at this stage, though WebP still maintains the overall lead by just over 10KB.</p>
 						
 						<h4>Image 2 - 2D Illustration with Transparency</h4><hr>
 						
