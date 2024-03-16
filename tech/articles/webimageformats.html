@@ -59,9 +59,9 @@
 					<article>
 						<h3>[Article] Web Image Formats - A quick comparison of PNG, JPG, WebP, & AVIF</h3><hr>
 						<div class="imgbox">
-							<img src="/img/embedpic.png" alt="Placeholder">
+							<img src="/tech/img/articles/imageformats/formats.webp" alt="An image showcasing the logos of the 4 image formats being examined."><p>I think the AVIF logo is probably the snazziest of the bunch, while the PNG logo is probably one of the most '90s things I've seen in a while.</p>
 						</div>
-						<p>Alright let’s not beat around the bush, here’s a quick and dirty demonstration of the performance of some of the most common rasterized image formats used for storing images on the web - .png, .jpg, .webp, and .avif. Here’s a quick synopsis of each:</p>
+						<p>Simply put, this is gonna be a quick and dirty demonstration of the performance of some of the most common rasterized image formats used for storing images on the web - .png, .jpg, .webp, and .avif. Here’s a quick synopsis of each:</p>
 						<p>• Portable Network Graphics (PNG) – Introduced in 1996, .png is a lossless raster image format designed to be a patent-free replacement to the Graphics Interchange Format (GIF). The lossless compression used means that images are preserved faithfully to the pixel at the cost of larger file sizes. Modern lossless image formats tend to be smaller owing to more sophisticated modern compression technologies, but PNG generally boasts superior compatibility due to its veterancy.</p>
 						<p>• Joint Photographics Expert Group (JPG/JPEG) – The oldest image format on this list, .jpg/.jpeg is a lossy raster image format introduced in 1992 chiefly designed for storing photographic images at reasonable sizes. Unlike the other 3 image formats here, alpha channel transparency is not supported in JPG and an image featuring transparency will have it converted into whitespace upon conversion to JPG.</p>
 						<p>• WebP – An image format officially released in 2018 by Google, .webp is a versatile raster image format that supports both lossy and lossless compression with far superior efficiency in file size in each compared to its predecessors.</p>
@@ -91,12 +91,13 @@
 						</div>
 						<p>I've gotta say, it was pretty interesting to see AVIF suddenly match JPG in terms of compression efficiency again after having lost to it by a notable margin in the 85% quality comparison. I can only speculate that perhaps JPG is superior when it comes to the initial stages of compression but AVIF's algorithms prove superior the more you try to compress it tighter and tighter. The differences in the file sizes are pretty negligible between formats at this stage, though WebP still maintains the overall lead by just over 10KB.</p>
 						
-						<h4>Image 2 - 2D Illustration with Transparency</h4><hr>
-						
+						<h4>Image 2 - 2D Illustrated Style with Transparency</h4><hr>
+						<p>For the next set of tests, I used NovelAI to generate an anime-style image of my character Perrine and then manually scrubbed out the background to make it transparent. The main thing I sought to examine with this test was to see if the presence of transparency had any major impact on the differences in file size efficiency between the tested images. JPG, of course, doesn't support alpha channel transparency and will instead render it as whitespace, which I figured was worth showing off for those who mightn't grasp what that entails.
 						<h4>100% Quality</h4>
 						<div class="imgbox">
 							<img src="/tech/img/articles/imageformats/Perrine100Chart.png" alt="Placeholder">
 						</div>
+						<p>Moving to an image consisting heavily of flat colours with a limited palette, we see the younger formats really hit their strides. While the 100% quality lossy WebP managed to reduce the photograph of Char & CC down to a third of its size, here we see it achieve a reduction down to an eighth of the size of the original PNG. AVIF similarly sees an improvement in compression efficiency from a half on image 1 to about a third on image 2, while JPG performs about the same as it did on the prior image.</p>
 						
 						<h4>85% Quality</h4>
 						<div class="imgbox">
