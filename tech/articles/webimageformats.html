@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>[Article] Web Image Formats - A quick comparison of PNG, JPG, WebP, & AVIF - ValkyrieSkies</title>
+	<meta property="og:title" content="[Article] Web Image Formats - A quick comparison of PNG, JPG, WebP, & AVIF - ValkyrieSkies">
+	<meta property="og:description" content="A quick and dirty investigation into the strengths of 4 of the most common web image formats in regards to their storage space efficiency.">
+	<meta name="author" content="ValkyrieSkies">
+
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="/img/favicon.png">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://valkyrieskies.ie">
+	<meta property="og:image" content="http://valkyrieskies.ie/img/embedpic.png">
+	<link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+	<div class="header">
+		<div class="headleft">
+			<a href="/"><img src="/img/banner.png" alt="Website Logo"></a>
+		</div>
+		
+		<div class="headright">
+			<table>
+			<tr>
+				<td><a href="https://valkyrianskies.tumblr.com/" target="_blank" rel="noopener noreferrer"><img src="/img/icotumblr.png" Alt="ValkyrianSkies on Tumblr" title="Valkyrianskies on Tumblr"></a></td>
+				<td><a href="https://www.youtube.com/@ValkyrianSkies" target="_blank" rel="noopener noreferrer"><img src="/img/icoyt.png" Alt="ValkyrianSkies on Youtube" title="ValkyrianSkies on Youtube"></a></td>				
+			</tr><tr>
+				<td><a href="https://github.com/ValkyrieSkies" target="_blank" rel="noopener noreferrer"><img src="/img/icogit.png" Alt="ValkyrieSkies on Github" title="ValkyrieSkies on Github"></a></td>
+				<td><a href="mailto:valkyrianskies@gmail.com"><img src="/img/icoemail.png" Alt="Email ValkyrieSkies" title="Email valkyrianskies@gmail.com"></a></td>
+			</tr>	
+			</table>
+		</div>
+	</div>
+	
+	<div class="titlebar">
+		<center>
+		<ul class="button">
+			<li><a href="/">Home</a></li>
+			<li><a href="/about.html">About</a></li>
+			<li><a href="/gaming/">Video Games</a></li>
+			<li><a href="/tradgames/">Trad Games</a></li>
+			<li><a href="/tech/">Tech</a></li>
+			<li><a href="/anime/">Anime/Manga</a></li>
+			<li><a href="/oc/">OC Stuff</a></li>
+			<li><a href="/misc/">Misc</a></li>
+		</ul>
+		</center>
+	</div>
+	
+	<main>
+		<div class="main">
+			<div class="primarycontent">
+				<div class="maincol">
+					<article>
+						<h3>[Article] Web Image Formats - A quick comparison of PNG, JPG, WebP, & AVIF</h3><hr>
+						<div class="imgbox">
+							<img src="/img/embedpic.png" alt="Placeholder">
+						</div>
+						<p>Alright let’s not beat around the bush, here’s a quick and dirty demonstration of the performance of some of the most common rasterized image formats used for storing images on the web - .png, .jpg, .webp, and .avif. Here’s a quick synopsis of each:</p>
+						<p>• Portable Network Graphics (PNG) – Introduced in 1996, .png is a lossless raster image format designed to be a patent-free replace to the Graphics Interchange Format (GIF). The lossless compression used means that images are preserved faithfully to the pixel at the cost of larger file sizes. It will also be larger than most modern lossless formats too owing to its age and more sophisticated compression methods implemented by these new formats.</p>
+						<p>• Joint Photographics Expert Group (JPG/JPEG) – The oldest image format on this list, .jpg/.jpeg is a lossy raster image format introduced in 1992 chiefly designed for storing photographic images at reasonable sizes. Unlike the other 3 image formats here, alpha channel transparency is not supported in JPG and an image using transparency will have it converted into whitespace upon conversion to JPG.</p>
+						<p>• WebP – An image format officially released in 2018 by Google, .webp is a versatile raster image format that supports both lossy and lossless compression with far superior efficiency in file size in each compared to its predecessors.</p>
+						<p>• AV1 Image File Format (AVIF) – Designed primarily for use in multimedia containers such as video, .avif is a lossy/lossless raster image format released in 2019. AVIF offers similar features to WebP as well as a superior suite of options for colour depth. Encoding images in AVIF can be more time intensive than the previous formats however, especially without a GPU which natively supports it.</p>
+						<p>While .gif can be used for still images as well, it doesn’t see regular use these days for reasons of quality and performance. Even most animations these days claiming to be GIFs are actually just looping MP4/WebM video files with the playback controls hidden.</p>
+						<p>My methodology is simple; I take a 759x1000 PNG image and using Paint.NET 5.0.12 I save a new version of it as each of the other file types, using the 100% quality setting for the first batch, 85% quality for the second batch, and 50% quality for the third batch. The first batch is to represent high quality image storage (demonstrating both lossless and lossy in the cases of WebP and AVIF), while the second batch is more representative of the level of compression desirable for online usage to keep file sizes lower without any serious impact to image quality. The third batch is a steep level of compression I could only imagine being used by a website churning out massive amounts of low quality content (such as a content mill or meme website) but I figured it would still be an interesting comparison. The completed charts feature all the formatted images compiled together and saved as a PNG to accurately preserve and display any artifacting present from their conversions.</p>
+						<p>As a purely lossless image format, the PNG serves as an unchanging baseline to compare the others against. WebP images are saved using the ‘Default’ preset. JPG and AVIF images are both saved with 4:2:2 Chroma Subsampling for parity between the two image formats. AVIF images are saved using the ‘Medium’ encoder preset – while smaller file sizes are possible using even slower presets, I feel most users as of the time of writing probably don’t want to have to wait that much longer for their images to save.</p>
+						<p>Now, let’s get to the substance of this article, the performance breakdown of each image format. I’ve prepared 3 distinctly different types of image for the test to provide a varied look at how each format deals with them.</p>
+						
+						<h4>Image 1 - Photograph</h4><hr>
+						
+						<h5>100% Quality</h5>
+						<div class="imgbox">
+							<img src="/tech/img/articles/imageformats/Cat100Chart.png" alt="Placeholder">
+						</div>
+						
+						<h5>85% Quality</h5>
+						<div class="imgbox">
+							<img src="/tech/img/articles/imageformats/Cat85Chart.png" alt="Placeholder">
+						</div>
+						
+						<h5>50% Quality</h5>
+						<div class="imgbox">
+							<img src="/tech/img/articles/imageformats/Cat50Chart.png" alt="Placeholder">
+						</div>
+						
+						<h4>Image 2 - 2D Illustration with Transparency</h4><hr>
+						
+						<h5>100% Quality</h5>
+						<div class="imgbox">
+							<img src="/tech/img/articles/imageformats/Perrine100Chart.png" alt="Placeholder">
+						</div>
+						
+						<h5>85% Quality</h5>
+						<div class="imgbox">
+							<img src="/tech/img/articles/imageformats/Perrine85Chart.png" alt="Placeholder">
+						</div>
+						
+						<h5>50% Quality</h5>
+						<div class="imgbox">
+							<img src="/tech/img/articles/imageformats/Perrine50Chart.png" alt="Placeholder">
+						</div>
+						
+						<h4>Image 3 - Minimalist Corporate Art</h4><hr>
+						
+						<h5>100% Quality</h5>
+						<div class="imgbox">
+							<img src="/tech/img/articles/imageformats/Corp100Chart.png" alt="Placeholder">
+						</div>
+						
+						<h5>85% Quality</h5>
+						<div class="imgbox">
+							<img src="/tech/img/articles/imageformats/Corp85Chart.png" alt="Placeholder">
+						</div>
+						
+						<h5>50% Quality</h5>
+						<div class="imgbox">
+							<img src="/tech/img/articles/imageformats/Corp50Chart.png" alt="Placeholder">
+						</div>
+						
+						<h4>Conclusions</h5>
+					
+					</article>
+				<span class="mobiledivider"><hr></span></div>
+				
+				<div class="infocol">
+					<div class="infobox">
+						<h3>Article Information</h3><hr>
+						<p>
+						<strong>Posted:</strong> 16th March, 2024<br>
+						<strong>Hardware Used:</strong> PC (<a href="/tech/hardware/gungnir.html#G2">Gungnir Mk.II</a>)<br>
+						</p>
+						<h3 id="sources">Sources</h3><hr>
+						<ul>
+							<li> [1] - <a href="https://twitter.com/SYMPHOGEAR/status/1594293709906251776" target="_blank" rel="noopener noreferrer">@SYMPHOGEAR on Twitter</a>, accessed 01/12/23</li>
+							<li> [2] - <a href="https://portal.symphogear.com/#info"target="_blank" rel="noopener noreferrer">Symphogear Portal Website</a>, accessed 01/12/23</li>
+							<li> [3] - <a href="https://symphogear.bushimo.jp/news/notice" target="_blank" rel="noopener noreferrer">Symphogear XDU Website</a>, accessed 01/12/23</li>
+							<li> [4] - <a href="https://twitter.com/SYMPHOGEAR/status/1730512560015749545"target="_blank" rel="noopener noreferrer">@SYMPHOGEAR on Twitter</a>, accessed 01/12/23</li>
+						</ul>
+					</div>
+					<br>
+					<div class="kofibutton">
+						<a href="https://ko-fi.com/valkyrieskies" target="_blank" rel="noopener noreferrer"><img src="/img/kofibutton.webp" alt="A button reading 'Support me on Ko-Fi'"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	
+	<div class="footer">
+		<p>Launched July 2023!</p>
+		<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener noreferrer"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" title="Licenced under CC-BY-NC-ND 4.0"></a>
+		<a href="https://notepad-plus-plus.org/" target="_blank" rel="noopener noreferrer"><img src="/img/notepadbadge.png" alt="Created with Notepad++" title="Created solely with Notepad++"></a>
+	</div>
+
+</body>
