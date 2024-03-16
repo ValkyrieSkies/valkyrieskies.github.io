@@ -40,7 +40,7 @@
 	<div class="titlebar">
 		<center>
 		<ul class="button">
-			<li><a href="/">Home</a></li>
+			<a href="/"><li>Home</li></a>
 			<li><a href="/about.html">About</a></li>
 			<li><a href="/gaming/">Video Games</a></li>
 			<li><a href="/tradgames/">Trad Games</a></li>
@@ -82,19 +82,19 @@
 						<p>For the first image to test, I chose a photograph of my cats Char & CC snoozing together on their bed by the back door, really showing off that I need to give the doormat a quick vacuum, but for the purposes of this test those extra gritty details are probably useful! Photographs tend to be dense with detail with constantly shifting shades and tones you won't find in many digitally created images, however a lot of those details can be smudged and compressed without any major loss to image clarity. As a format designed for use with photographs in particular, this should be the type of image JPG is most comfortable with.</p>
 						<h4>100% Quality</h4>
 						<div class="imgbox">
-							<img src="/tech/img/articles/imageformats/Cat100Chart.png" alt="Placeholder">
+							<img src="/tech/img/articles/imageformats/Cat100Chart.png" alt="A chart demonstrating the file sizes of each of the tested file types. The results are as follows: PNG 1290KB, JPG 736KB, WebP 414KB, Lossless WebP 826KB, AVIF 642KB, Lossless AVIF 1003KB.">
 						</div>
 						<p>Unsurprisingly, the PNG version of this image is the largest image that will be featured in this entire article, as the original image is rich with fine detail such as the detail present on Char & CC's tortoiseshell fur and the many uneven textures present throughout, from the material of the bed to the concrete surface outside. While JPG shows a solid reduction in size compared to PNG, WebP almost matches that again for JPG and quickly shows up the older format in terms of efficiency at minimal levels of compression. Even the lossless version of the WebP conversion almost matches the lossy JPG format in terms of filesize.</p>
 						
 						<h4>85% Quality</h4>
 						<div class="imgbox">
-							<img src="/tech/img/articles/imageformats/Cat85Chart.png" alt="Placeholder">
+							<img src="/tech/img/articles/imageformats/Cat85Chart.png" alt="A chart demonstrating the file sizes of each of the tested file types. The results are as follows: PNG 1290KB, JPG 225KB, WebP 194KB, AVIF 271KB.">
 						</div>
-						<p>Once we drop the quality level below 100% however, JPG makes quite the resurgence and draws very close to the size of the WebP image while even managing to defeat the younger AVIF format in terms of file size. Perhaps if I had a GPU with a native AV1 encoder I'd be able to push the AVIF version to a smaller size than the JPG, but for now it looks like the older format can still do a decent job within its comfort zone. WebP still proves to be the best of the bunch overall however, which will become a pretty common trend throughout this article.</p>
+						<p>Once we drop the quality level below 100% however, JPG makes quite the resurgence and draws very close to the size of the WebP image while even managing to defeat the younger AVIF format in terms of file size. Perhaps if I was using a slower AVIF encoding preset I'd be able to push the AVIF version to a smaller size than the JPG, but for now it looks like the older format can still do a decent job within its comfort zone. WebP still proves to be the best of the bunch overall however, which will become a pretty common trend throughout this article.</p>
 						
 						<h4>50% Quality</h4>
 						<div class="imgbox">
-							<img src="/tech/img/articles/imageformats/Cat50Chart.png" alt="Placeholder">
+							<img src="/tech/img/articles/imageformats/Cat50Chart.png" alt="A chart demonstrating the file sizes of each of the tested file types. The results are as follows: PNG 1290KB, JPG 111KB, WebP 97KB, AVIF 110KB.">
 						</div>
 						<p>I've gotta say, it was pretty interesting to see AVIF suddenly match JPG in terms of compression efficiency again after having lost to it by a notable margin in the 85% quality comparison. I can only speculate that perhaps JPG is superior when it comes to the initial stages of compression but AVIF's algorithms prove superior the more you try to compress it tighter and tighter. The differences in the file sizes are pretty negligible between formats at this stage, though WebP still maintains the overall lead by just over 10KB.</p>
 						
@@ -102,19 +102,19 @@
 						<p>For the next set of tests, I used NovelAI's Image Generation service to generate an anime-style image of my character Perrine and then manually scrubbed out the background to make it transparent. The main thing I sought to examine with this test was to see if the presence of transparency had any major impact on the differences in file size efficiency between the tested images. JPG, of course, doesn't support alpha channel transparency and will instead render it as whitespace, which I figured was worth showing off for those who mightn't grasp what that entails. I think it goes without saying though, but please don't save transparent images as JPGs. <sub>Honestly, to show my hand early, please just stop saving images as JPGs in general.</sub></p>
 						<h4>100% Quality</h4>
 						<div class="imgbox">
-							<img src="/tech/img/articles/imageformats/Perrine100Chart.png" alt="Placeholder">
+							<img src="/tech/img/articles/imageformats/Perrine100Chart.png" alt="A chart demonstrating the file sizes of each of the tested file types. The results are as follows: PNG 780KB, JPG 359KB, WebP 122KB, Lossless WebP 453KB, AVIF 277KB, Lossless AVIF 486KB.">
 						</div>
 						<p>Moving to an image consisting heavily of flat colours with a limited palette, we see the younger formats really hit their strides. While the 100% quality lossy WebP managed to reduce the photograph of Char & CC down to a third of its size, here we see it achieve a reduction down to an eighth of the size of the original PNG. AVIF similarly sees an improvement in compression efficiency from a half on image 1 to about a third on image 2, while JPG performs about the same as it did on the prior image. Lossless WebP and AVIF also perform significantly better than on the photograph prior, unsurprisingly.</p>
 						
 						<h4>85% Quality</h4>
 						<div class="imgbox">
-							<img src="/tech/img/articles/imageformats/Perrine85Chart.png" alt="Placeholder">
+							<img src="/tech/img/articles/imageformats/Perrine85Chart.png" alt="A chart demonstrating the file sizes of each of the tested file types. The results are as follows: PNG 780KB, JPG 86KB, WebP 48KB, AVIF 64KB.">
 						</div>
 						<p>Once more, just that slight reduction in quality sees massive gains in file size reduction immediately, bringing every single lossy format down to double digit values. At these sizes, I can't imagine there's much more gains in reduction to be had without utterly butchering the image's quality. WebP continues to lead the pack, offering fantastically small sizes without any waiting on tedious rendering processes.</p>
 						
 						<h4>50% Quality</h4>
 						<div class="imgbox">
-							<img src="/tech/img/articles/imageformats/Perrine50Chart.png" alt="Placeholder">
+							<img src="/tech/img/articles/imageformats/Perrine50Chart.png" alt="A chart demonstrating the file sizes of each of the tested file types. The results are as follows: PNG 780KB, JPG 48KB, WebP 27KB, AVIF 31KB.">
 						</div>
 						<p>As expected, gains here are pretty minimal for all formats other than JPG, but again, you really shouldn't be butchering transparent images by saving them as JPGs. While a case could probably be made for the 50% quality on image 1 as there were still solid gains made there, here there's really no reason to consider anything below like 80% quality.</p>
 						
@@ -123,24 +123,32 @@
 						
 						<h4>100% Quality</h4>
 						<div class="imgbox">
-							<img src="/tech/img/articles/imageformats/Corp100Chart.png" alt="Placeholder">
+							<img src="/tech/img/articles/imageformats/Corp100Chart.png" alt="A chart demonstrating the file sizes of each of the tested file types. The results are as follows: PNG 62KB, JPG 105KB, WebP 32KB, Lossless WebP 33KB, AVIF 42KB, Lossless AVIF 62KB.">
 						</div>
 						<p>This is probably the most interesting chart of this entire article honestly; the JPG, despite being a lossy format designed to shrink image sizes, has ended up being larger than the PNG representation of the image. I can only hazard a guess that this might be due to it simply not really being designed to store such simple, flat images efficiently, especially when told to maintain 100% quality on said image. Its also interesting to see both the lossy and lossless WebP conversions end up more or less the same size by a matter of bytes while the lossless AVIF ends up being the same size as the original PNG.</p>
 						
 						<h4>85% Quality</h4>
 						<div class="imgbox">
-							<img src="/tech/img/articles/imageformats/Corp85Chart.png" alt="Placeholder">
+							<img src="/tech/img/articles/imageformats/Corp85Chart.png" alt="A chart demonstrating the file sizes of each of the tested file types. The results are as follows: PNG 62KB, JPG 43KB, WebP 16KB, AVIF 14KB.">
 						</div>
 						<p>JPG sheds off all that strange bloat it introduced once it's allowed to eschew quality and do its compression thing and slips below the size of the PNG where it always should have been. Interestingly we also see our first big win for AVIF here, with it finally overtaking WebP for smallest image size. I suspect the newer rendering technology employed versus WebP's likely gave it the edge in compression in an image with only like 10 or 11 colours present.</p>
 						
 						<h4>50% Quality</h4>
 						<div class="imgbox">
-							<img src="/tech/img/articles/imageformats/Corp50Chart.png" alt="Placeholder">
+							<img src="/tech/img/articles/imageformats/Corp50Chart.png" alt="A chart demonstrating the file sizes of each of the tested file types. The results are as follows: PNG 62KB, JPG 29KB, WebP 10KB, AVIF 7KB.">
 						</div>
 						<p>AVIF achieves the first and only single digit file size of the article as it shrinks the image right down to a measly 7KB in size, and without any real noticeable graphical distortion either. JPG continues to lag behind the 2 newcomers in size while also displaying the most prevalent compression artifacting visible on the edges of the colour boundaries. WebP also displays some distortion at the edges of its colours, but still less than the JPG does and at a much smaller size still.</p>
 						
 						<h4>Conclusions</h4><hr>
-						<p></p>
+						<p>As things currently stand, WebP is probably the best all-round format to use for static web images at the moment. Its ease of use, versatility, widespread adoption by modern devices & software, and fantastic file sizes really give it an edge over the competition. Once AV1 equipped GPUs start to replace older model cards I suspect the paradigm will probably shift in AVIF's favour instead, but with the fantastic longevity GPUs have had since the GTX 1000 series I suspect it may take some time for that to really come about.</p>
+						
+						<p>JPG meanwhile is really starting to show its age. It has the least features of all formats presented here and even in its own area of expertise it sees itself beaten out by the newer formats. Probably the only advantage it still holds at all is the all-pervasive compatibility it holds thanks to its veterancy, but otherwise I would advise people to just stop using JPG entirely if possible.</p>
+						
+						<p>PNG has always been the bulky but accurate image format and it'll probably stay that way for the forseeable future. Lossless WebP and AVIF arguably do its job better now, but it does still boast the advantage of the level of compatibility JPG also enjoys while also having greater functionality than it thanks to its support of alpha channel transparency. There's also something to be said for the certainty that seeing an image saved as a PNG brings - if you see a .png, you KNOW it's a lossless image, whereas due to it being an optional setting in WebP and AVIF you can't always tell if they are just by looking at the file extension. Coupling that with PNG being a standard when it comes to texture work in 3D applications, PNG will likely stick around for decades to come.</p>
+						
+						<p>And there we have it, my tests and thoughts on what are probably the 4 most relevant web image formats. In hindsight I probably should've also included an image with some text and maybe some graph-like imagery to better test the effect compression artifacting had on their readability, but oh well. Maybe when a few more new image formats come along such as JPEG XL and hit the mainstream I'll do a new series of tests and make sure to cover that base too. Time will tell...</p>
+						
+						<p>But yeah WebP rocks and you should use it.</p>
 					
 					</article>
 				<span class="mobiledivider"><hr></span></div>
@@ -153,10 +161,6 @@
 						<strong>Hardware Used:</strong> PC (<a href="/tech/hardware/gungnir.html#G2">Gungnir Mk.II</a>)<br>
 						<strong>Software Used:</strong> <a href="https://www.getpaint.net/index.html" target="_blank" rel="noopener noreferrer">Paint.NET</a> v5.0.12<br>
 						</p>
-						<h3 id="sources">Sources</h3><hr>
-						<ul>
-							<li> [1] - <a href="https://twitter.com/SYMPHOGEAR/status/1594293709906251776" target="_blank" rel="noopener noreferrer">@SYMPHOGEAR on Twitter</a>, accessed 01/12/23</li>
-						</ul>
 					</div>
 					<br>
 					<div class="kofibutton">
