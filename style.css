@@ -90,14 +90,14 @@ hr
 		max-width: 50px;
 	}
 
-.titlebar
+.buttonbar
 {
 	background-color: #333333;
 	border-style: none solid solid solid;
 	
 }
 
-	div.titlebar
+	div.buttonbar
 	{
 		
 		vertical-align: middle;
