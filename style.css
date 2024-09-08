@@ -152,7 +152,7 @@ hr
 div.main
 {
 	border-style: none solid solid solid;
-	background-color: #d9d9d9;
+	background-color: #EFEFEF;
 }
 	
 img.floatleft
@@ -251,7 +251,7 @@ div.iconbox
 	border-style: none;
 	border-width: 1px;
 	border-radius: 15px;
-	background-color: #C1C1C1;
+	background-color: #d9d9d9;
 }
 
 	.iconbox img
@@ -311,7 +311,7 @@ div.2col
 
 div.highlightbox
 {
-	background-color: #C1C1C1;
+	background-color: #d9d9d9;
 	border-style: none;
 	border-width: 1px;
 	border-radius: 15px;
@@ -358,7 +358,7 @@ div.highlightbox
 
 	div.infobox
 	{
-		background-color: #C1C1C1;
+		background-color: #d9d9d9;
 		border-radius: 15px;
 		padding: 10px;
 	}
@@ -383,7 +383,7 @@ details {
   border: 1px solid #aaa;
   border-radius: 4px;
   padding: 0.5em 0.5em 0;
-  background-color: #C1C1C1;
+  background-color: #d9d9d9;
 }
 
 summary {
@@ -437,7 +437,7 @@ details[open] summary {
 	
 	div.infobox
 	{
-		background-color: #C1C1C1;
+		background-color: #d9d9d9;
 		border-radius: 15px;
 	}
 		
