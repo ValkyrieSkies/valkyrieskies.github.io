@@ -233,6 +233,47 @@ div.duobox
 		text-align: center;
 	}
 	
+div.iconbox
+{
+	display: flex;
+	border-style: none;
+	border-width: 1px;
+	border-radius: 15px;
+	background-color: #C1C1C1;
+}
+
+	.iconbox img
+	{
+		width: 100%;
+		border-radius: 5px;
+		vertical-align: center;
+	}
+	
+	.iconbox p
+	{
+		margin-top: 2px;
+		margin-bottom: 2px;
+	}
+
+	div.iconleft
+	{
+		padding: 5px;
+		flex: 10%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: auto;
+		margin-bottom: auto;
+		vertical-align: center;
+	}
+
+	div.iconright
+	{
+		flex: 90%;		
+		padding: 6px 3px 3px 3px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	
 div.profilebox
 {
 	display: flex;
@@ -258,26 +299,22 @@ div.profilebox
 	div.profileleft
 	{
 		padding: 5px;
-		flex: 10%;
+		flex: 50%;
 		margin-right: auto;
 		margin-left: auto;
-		margin-top: auto;
+		margin-top: 2px;
 		margin-bottom: auto;
 		vertical-align: center;
 	}
 
 	div.profileright
 	{
-		flex: 90%;		
+		flex: 50%;		
 		padding: 6px 3px 3px 3px;
 		margin-left: 5px;
 		margin-right: 5px;
 	}
-	
-	p.systems
-	{
-		float: bottom;
-	}
+
 	
 .score
 {
@@ -433,7 +470,7 @@ details[open] summary {
 		border-radius: 15px;
 	}
 		
-	div.profilebox
+	div.iconbox
 	{
 		display: flex;
 		flex-direction: column;
@@ -442,24 +479,24 @@ details[open] summary {
 		border-radius: 15px;
 	}
 
-		.profilebox img
+		.iconbox img
 		{
 			width: 50%;
-			border-radius: 50%;
+			border-radius: 5px;
 			text-align: center;
 		}
 		
-		.profilebox h4
+		.iconbox h4
 		{
 			text-align: center;
 		}
 		
-		.profilebox p
+		.iconbox p
 		{
 
 		}
 
-		div.profileleft
+		div.iconleft
 		{
 			padding: 3px;
 			margin-right: auto;
@@ -469,7 +506,7 @@ details[open] summary {
 			text-align: center;
 		}
 
-		div.profileright
+		div.iconright
 		{		
 			padding: 3px;
 			margin-left: 5px;
