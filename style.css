@@ -288,7 +288,7 @@ div.profilebox
 		width: 100%;
 		border-radius: 5px;
 		vertical-align: center;
-		margin: 5% 5% 0 5%;
+		padding: 5% 5% 0 5%;
 	}
 	
 	.profilebox p
