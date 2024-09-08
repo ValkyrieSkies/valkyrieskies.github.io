@@ -238,7 +238,7 @@ div.iconbox
 	display: flex;
 	border-style: none;
 	border-width: 1px;
-	border-radius: 10px;
+	border-radius: 15px;
 	background-color: #C1C1C1;
 }
 
@@ -274,50 +274,7 @@ div.iconbox
 		margin-left: 5px;
 		margin-right: 5px;
 	}
-	
-div.profilebox
-{
-	display: flex;
-	border-style: none;
-	border-width: 1px;
-	border-radius: 15px;
-	background-color: #C1C1C1;
-}
 
-	.profilebox img
-	{
-		width: 100%;
-		border-radius: 5px;
-		vertical-align: center;
-	}
-	
-	.profilebox p
-	{
-		margin-top: 2px;
-		margin-bottom: 2px;
-	}
-
-	div.profileleft
-	{
-		padding: 5px;
-		flex: 50%;
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: 2px;
-		margin-bottom: auto;
-		padding-right: 6px;
-		vertical-align: center;
-	}
-
-	div.profileright
-	{
-		flex: 50%;		
-		padding: 6px 3px 3px 3px;
-		margin-left: 5px;
-		margin-right: 5px;
-	}
-
-	
 .score
 {
 	width: 200px;
