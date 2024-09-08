@@ -16,7 +16,7 @@ body
 a
 {
 	text-decoration: none;
-	color: #D6486C;
+	color: #770000;
 }
 
 ul
@@ -36,7 +36,7 @@ hr
 {
 	display: flex;
 	border-style: solid;
-	background-color: #C14000;
+	background-color: #770000;
 	border-radius: 15px 15px 0px 0px;
 }
 
