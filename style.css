@@ -158,13 +158,13 @@ div.main
 img.floatleft
 {
 	float: left;
-	padding: 5px 5px 5px 0px;
+	margin: 5px 5px 5px 0px;
 }
 
 img.floatright
 {
 	float: right;
-	padding: 5px 0px 5px 5px;
+	margin: 5px 0px 5px 5px;
 }
 	
 div.imgbox
