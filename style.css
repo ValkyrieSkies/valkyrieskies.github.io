@@ -261,8 +261,6 @@ div.iconbox
 		flex: 10%;
 		margin-right: auto;
 		margin-left: auto;
-		margin-top: auto;
-		margin-bottom: auto;
 		vertical-align: center;
 	}
 
@@ -288,7 +286,6 @@ div.profilebox
 		width: 100%;
 		border-radius: 5px;
 		vertical-align: center;
-		padding: 5% 5% 0 5%;
 	}
 	
 	.profilebox p
@@ -305,6 +302,7 @@ div.profilebox
 		margin-left: auto;
 		margin-top: 2px;
 		margin-bottom: auto;
+		padding-right: 6px;
 		vertical-align: center;
 	}
 
