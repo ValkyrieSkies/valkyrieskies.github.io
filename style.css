@@ -275,9 +275,8 @@ div.iconbox
 	{
 		padding: 5px;
 		flex: 10%;
-		/* Uncomment these two lines to vertically center the icons.
 		margin-top: auto;
-		margin-bottom: auto; */
+		margin-bottom: auto;
 		margin-right: auto;
 		margin-left: auto;
 		vertical-align: center;
